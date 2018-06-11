@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Welcome to relative</h1>
+<a href="{% url 'app_seven:other' %}">the other page</a>  # name of the application in the urls.py /name= of the page in urls.py
+<a href="{% url 'admin:index' %}">to the admin</a>  # this is always the same name
+<a href="{% url 'index' %}">to index</a>  # always the same
+</body>
+</html>
